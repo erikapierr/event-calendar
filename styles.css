@@ -48,3 +48,24 @@
 .day-title {
 	text-align: center;
 }
+
+.day-details-wrapper {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.05);
+}
+
+.day-details {
+	text-align: left;
+	padding: 0 2%;
+	margin: 7.5% 12.5% 0 12.5%;
+	position: absolute;
+	height: 75%;
+	width: 75%;
+	top: 0;
+	left: 0;
+	background: #abc;
+}
